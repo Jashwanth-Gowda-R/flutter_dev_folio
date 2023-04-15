@@ -57,28 +57,20 @@
     },
     "education": {
         "1": {
-            "institute": "RCC Institute of Information Technology",
-            "location": "Kolkata",
-            "years": "2020 - 2024",
-            "description": "B.Tech in CSE",
-            "grades": "9.53 YGPA",
-            "logo": "rcciit.png"
+            "institute": "Don Bosco Institute Of Technology",
+            "location": "Bengaluru, India",
+            "years": "2015 - 2019",
+            "description": "Bachelor of Telecommunication Engineering",
+            "grades": "6.16 CGPA",
+            "logo": "dbit.png"
         },
         "2": {
-            "institute": "Gitaram Academy",
-            "location": "Berhampore",
-            "years": "2018 - 2020",
+            "institute": "Bunts' Sangha RNS Vidyaniketan",
+            "location": "Bengaluru, India",
+            "years": "2013 - 2015",
             "description": "Physics, Chemistry, Mathematics, Computer Science",
-            "grades": "84%",
-            "logo": "gitaram.png"
-        },
-        "3": {
-            "institute": "The St. Xavier's School",
-            "location": "Malda",
-            "years": "2004 - 2018",
-            "description": "Secondary Education",
-            "grades": "94%",
-            "logo": "stxaviers.png"
+            "grades": "84.4%",
+            "logo": "rns.jpeg"
         }
     },
     "experience": {
