@@ -1,62 +1,58 @@
 {
     "name_and_link": [
-        "Shourya Shikhar Ghosh",
-        "https://github.com/danger-ahead/"
+        "Jashwanth Gowda R",
+        "https://github.com/Jashwanth-Gowda-R"
     ],
     "designation": [
-        "CS Undergrad.",
-        "Flutter Developer."
+        "Flutter Developer.",
+        "Self-taught Front-end Engineer."
     ],
-    "resume_download_link": "https://docs.google.com/document/d/15T64f6XCPKDaJX7CUFDIqly-H4PcudLTWDlKGxb9IvQ/edit?usp=sharing/export?format=pdf",
+    "resume_download_link": "https://drive.google.com/file/d/1aqUZrsTn6N6IvNQu566NijvIIFKbXZLv/view",
     "social_media": {
         "1": [
-            "https://github.com/danger-ahead/",
+            "https://github.com/Jashwanth-Gowda-R",
             "github"
         ],
         "2": [
-            "https://leetcode.com/danger-ahead/",
+            "https://leetcode.com/FlutterDevJashwanth6/",
             "leetcode"
         ],
         "3": [
-            "https://linkedin.com/in/shourya-shikhar/",
+            "https://www.linkedin.com/in/jashwanthgowda-6666/",
             "linkedin"
         ],
         "4": [
-            "https://stackoverflow.com/users/10951873/shourya-shikhar",
-            "stackoverflow"
-        ],
-        "5": [
-            "https://twitter.com/___shourya___/",
+            "https://twitter.com/Jash_gowda_6",
             "twitter"
         ],
-        "6": [
-            "mailto:danger.ahead@pm.me",
+        "5": [
+            "mailto:webdevjash6@gmail.com",
             "email"
         ]
     },
     "contact_me": {
-        "location": "Kolkata, India",
+        "location": "Bengaluru, India",
         "open_for_opportunities": "Yes",
-        "picture": "picture.png"
+        "picture": "picture.jpeg"
     },
-    "about": "A passionate Software Developer 🚀 | Open Source enthusiast 📝 | Maintainer 👷",
-    "bio": "Sophomore CS Engineering student. I spend my leisure time contributing to open source projects and browsing Stack Overflow. I've hands-on experience in working on several projects that use Python, Node.js, Flutter, Java, etc. Most of my projects are released as open-source on GitHub.",
+    "about": "A passionate Software Developer 🚀 | Flutter Enthusiast 📝 ",
+    "bio": "I am a self-taught Front-end Engineer with more than 2 years of industry experience. I am currently focusing on building both mobile and web applications using Flutter.",
     "what_i_do": {
         "tools": [
             "flutter.png",
-            "linux.png",
-            "c.png",
-            "cpp.png",
-            "java.png",
-            "python.png",
-            "bash.png",
+            "Dart-logo.png",
+            "JavaScript-logo.png",
+            "React-icon.png",
+            "boot.jpeg",
+            "firebase.png",
             "git.png"
         ],
         "proficiency": [
             "Flutter--50",
-            "C/C++/Java/Python--60",
-            "GNU/Linux--30",
-            "Git--65"
+            "Dart--60",
+            "Javascript--60",
+            "ReactJs--40",
+            "Git--60"
         ]
     },
     "education": {
