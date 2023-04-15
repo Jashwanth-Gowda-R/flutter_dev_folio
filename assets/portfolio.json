@@ -75,45 +75,24 @@
     },
     "experience": {
         "1": {
-            "name": "Ekko",
-            "role": "Web and App Intern",
-            "period": "June, 2022 - Present",
-            "description": "Working in the web and app team.",
-            "image_name": "ekko.png"
+            "name": "Digital Green",
+            "role": "Software Engineer I",
+            "period": "Jul. 2021 – Nov. 2022",
+            "description": "Worked on ReactJs web app and Flutter Android apps",
+            "image_name": "digital-green.jpeg"
         },
         "2": {
-            "name": "Credanic",
-            "role": "Flutter SDE Intern",
-            "period": "December, 2021 - February, 2021",
-            "description": "Worked in the Flutter App Dev Team.",
-            "image_name": "credanic.png"
+            "name": "Vrook ",
+            "role": "Software Engineer Intern",
+            "period": "Oct. 2019 – Apr. 2021",
+            "description": "Designed and developed custom mobile-responsive themes for OpenEdX LMS.",
+            "image_name": "vrook.png"
         },
         "3": {
-            "name": "Google Developer Student Club",
-            "role": "Cybersecurity core member",
-            "period": "September, 2021 - Present",
-            "description": "Helped in organizing and conducting technical workshops, and informative webinars for community members.",
-            "image_name": "GDSC.png"
-        },
-        "4": {
-            "name": "RccTechz - RCCIIT Tech Chapter",
-            "role": "Member",
-            "period": "March, 2021 - March, 2022",
-            "description": "Official Tech chapter of RCCIIT, RCCTechz. Contributed to Club activities, helped other members with projects and helped coordinate workshops.",
-            "image_name": "rcctechz.png"
-        },
-        "5": {
-            "name": "Coding Ninjas",
-            "role": "Campus Ambassador",
-            "period": "August, 2021 - February, 2022",
-            "description": "Promoting the company's courses, sharing referrals and conducting workshops.",
-            "image_name": "coding-ninjas.png"
-        },
-        "6": {
             "name": "Open Source",
             "role": "Contributor",
             "period": "December, 2020 - Present",
-            "description": "Completed Hacktoberfest'21 with 6 merged pull requests.",
+            "description": "Completed Hacktoberfest'21 with 4 merged pull requests and also contributed to few opensource projects",
             "image_name": "opensource.png"
         }
     },
