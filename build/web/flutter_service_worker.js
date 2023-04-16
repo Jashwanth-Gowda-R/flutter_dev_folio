@@ -4,8 +4,8 @@ const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
   "version.json": "db8990b8a733cdd52065ba1549ba9aa5",
-"index.html": "adf5e15f5df7e42524508b857bd8d1de",
-"/": "adf5e15f5df7e42524508b857bd8d1de",
+"index.html": "e13c43388e22041f1ffd9e536b838cb9",
+"/": "e13c43388e22041f1ffd9e536b838cb9",
 "main.dart.js": "c2a0e1b9b2b9773f2bebe5b023edd33d",
 "flutter.js": "a85fcf6324d3c4d3ae3be1ae4931e9c5",
 "style.css": "ffba23ff301032bec9a3922e763ddcca",
@@ -20,7 +20,7 @@ const RESOURCES = {
 "assets/assets/experience/opensource.png": "997db9ffb7f57a2c0ef1323c6056c44b",
 "assets/assets/experience/digital-green.jpeg": "da4f9638016542240d31b1da3126c5f6",
 "assets/assets/experience/vrook.png": "b701eb175471fa56615160323c2e9a5c",
-"assets/assets/portfolio.json": "0442b1a20731620aeb3632cb938eb1ce",
+"assets/assets/portfolio.json": "457ac60276e241dd572acd7b2b54c380",
 "assets/assets/home/constant/email.png": "b4ac60cde3dabbe4bc1b8b7c88dc4585",
 "assets/assets/home/constant/link.png": "6bd16f15b5c2d30c08557a84b776f3a6",
 "assets/assets/home/constant/instagram.png": "6a5e75ccceace8a900c3ca017bb5933b",
