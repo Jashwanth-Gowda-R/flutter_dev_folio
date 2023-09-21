@@ -7,7 +7,7 @@
         "Flutter Developer.",
         "Self-taught Front-end Engineer."
     ],
-    "resume_download_link": "https://drive.google.com/file/d/1UYCqL_7McQpQtnhP0TbTEZi7av1m_8Ju/view?usp=sharing",
+    "resume_download_link": "https://drive.google.com/file/d/1TLp3FMw-O7pjiuBKFw8YqA8aGLrIV692/view?usp=sharing",
     "social_media": {
         "1": [
             "https://github.com/Jashwanth-Gowda-R",
@@ -36,7 +36,7 @@
         "picture": "picture.jpeg"
     },
     "about": "A passionate Software Developer 🚀 | Flutter Enthusiast 📝 ",
-    "bio": "I am a self-taught Front-end Engineer with more than 2 years of industry experience. I am currently focusing on building both mobile and web applications using Flutter.",
+    "bio": "I am an experienced Flutter software developer with 3 years of industry expertise. I am proficient in building cross-platform applications and delivering user-centric solutions.",
     "what_i_do": {
         "tools": [
             "flutter.png",
@@ -87,13 +87,6 @@
             "period": "Oct. 2019 – Apr. 2021",
             "description": "Designed and developed custom mobile-responsive themes for OpenEdX LMS.",
             "image_name": "vrook.png"
-        },
-        "3": {
-            "name": "Open Source",
-            "role": "Contributor",
-            "period": "December, 2020 - Present",
-            "description": "Completed Hacktoberfest'21 with 4 merged pull requests and also contributed to few opensource projects",
-            "image_name": "opensource.png"
         }
     },
     "projects": {
