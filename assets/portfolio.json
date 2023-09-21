@@ -1,170 +1,152 @@
 {
-    "name_and_link": [
-        "Jashwanth Gowda R",
-        "https://github.com/Jashwanth-Gowda-R"
+  "name_and_link": [
+    "Jashwanth Gowda R",
+    "https://github.com/Jashwanth-Gowda-R"
+  ],
+  "designation": ["Flutter Developer.", "Self-taught Front-end Engineer."],
+  "resume_download_link": "https://drive.google.com/file/d/1TLp3FMw-O7pjiuBKFw8YqA8aGLrIV692/view?usp=sharing",
+  "social_media": {
+    "1": ["https://github.com/Jashwanth-Gowda-R", "github"],
+    "2": ["https://leetcode.com/FlutterDevJashwanth6/", "leetcode"],
+    "3": ["https://www.linkedin.com/in/jashwanthgowda-6666/", "linkedin"],
+    "4": ["https://twitter.com/Jash_gowda_6", "twitter"],
+    "5": ["mailto:webdevjash6@gmail.com", "email"]
+  },
+  "contact_me": {
+    "location": "Bengaluru, India",
+    "open_for_opportunities": "Yes",
+    "picture": "picture.jpeg"
+  },
+  "about": "A passionate Software Developer 🚀 | Flutter Enthusiast 📝 ",
+  "bio": "I am an experienced Flutter software developer with 3 years of industry expertise. I am proficient in building cross-platform applications and delivering user-centric solutions.",
+  "what_i_do": {
+    "tools": [
+      "flutter.png",
+      "Dart-logo.png",
+      "JavaScript-logo.png",
+      "React-icon.png",
+      "boot.jpeg",
+      "firebase.png",
+      "git.png"
     ],
-    "designation": [
-        "Flutter Developer.",
-        "Self-taught Front-end Engineer."
-    ],
-    "resume_download_link": "https://drive.google.com/file/d/1TLp3FMw-O7pjiuBKFw8YqA8aGLrIV692/view?usp=sharing",
-    "social_media": {
-        "1": [
-            "https://github.com/Jashwanth-Gowda-R",
-            "github"
-        ],
-        "2": [
-            "https://leetcode.com/FlutterDevJashwanth6/",
-            "leetcode"
-        ],
-        "3": [
-            "https://www.linkedin.com/in/jashwanthgowda-6666/",
-            "linkedin"
-        ],
-        "4": [
-            "https://twitter.com/Jash_gowda_6",
-            "twitter"
-        ],
-        "5": [
-            "mailto:webdevjash6@gmail.com",
-            "email"
-        ]
+    "proficiency": [
+      "Flutter--70",
+      "Dart--70",
+      "Javascript--60",
+      "ReactJs--50",
+      "Git--60"
+    ]
+  },
+  "education": {
+    "1": {
+      "institute": "Don Bosco Institute Of Technology",
+      "location": "Bengaluru, India",
+      "years": "2015 - 2019",
+      "description": "Bachelor of Telecommunication Engineering",
+      "grades": "6.16 CGPA",
+      "logo": "dbit.png"
     },
-    "contact_me": {
-        "location": "Bengaluru, India",
-        "open_for_opportunities": "Yes",
-        "picture": "picture.jpeg"
-    },
-    "about": "A passionate Software Developer 🚀 | Flutter Enthusiast 📝 ",
-    "bio": "I am an experienced Flutter software developer with 3 years of industry expertise. I am proficient in building cross-platform applications and delivering user-centric solutions.",
-    "what_i_do": {
-        "tools": [
-            "flutter.png",
-            "Dart-logo.png",
-            "JavaScript-logo.png",
-            "React-icon.png",
-            "boot.jpeg",
-            "firebase.png",
-            "git.png"
-        ],
-        "proficiency": [
-            "Flutter--50",
-            "Dart--60",
-            "Javascript--60",
-            "ReactJs--40",
-            "Git--60"
-        ]
-    },
-    "education": {
-        "1": {
-            "institute": "Don Bosco Institute Of Technology",
-            "location": "Bengaluru, India",
-            "years": "2015 - 2019",
-            "description": "Bachelor of Telecommunication Engineering",
-            "grades": "6.16 CGPA",
-            "logo": "dbit.png"
-        },
-        "2": {
-            "institute": "Bunts' Sangha RNS Vidyaniketan",
-            "location": "Bengaluru, India",
-            "years": "2013 - 2015",
-            "description": "Physics, Chemistry, Mathematics, Computer Science",
-            "grades": "84.4%",
-            "logo": "rns.jpeg"
-        }
-    },
-    "experience": {
-        "1": {
-            "name": "Digital Green",
-            "role": "Software Engineer I",
-            "period": "Jul. 2021 – Nov. 2022",
-            "description": "Worked on ReactJs web app and Flutter Android apps",
-            "image_name": "digital-green.jpeg"
-        },
-        "2": {
-            "name": "Vrook ",
-            "role": "Software Engineer Intern",
-            "period": "Oct. 2019 – Apr. 2021",
-            "description": "Designed and developed custom mobile-responsive themes for OpenEdX LMS.",
-            "image_name": "vrook.png"
-        }
-    },
-    "projects": {
-        "1": {
-            "name": "Regalia '22 Backend",
-            "tech_stack_used": "FastAPI and MongoDB (using Python)",
-            "description": "Backend of Regalia '22, RCCIIT's cultural fest. Handled total entries for 1.2K+ attendees on both the event days each. Also handled on-spot registrations (including sending passes through email using MAILGUN API) and free entries, without encountering a single production bug.",
-            "general_or_github_link": "https://github.com/danger-ahead/regalia-2022-backend"
-        },
-        "2": {
-            "name": "TechTrix '22 Backend",
-            "tech_stack_used": "FastAPI and MongoDB (using Python)",
-            "description": "Made the backend of TechTrix '22, RCCIIT's tech fest. Handled 435+ participants, 60+ coordinators, and 560+ event registrations, without encountering a single production bug.",
-            "general_or_github_link": "https://github.com/danger-ahead/techtrix22-backend"
-        },
-        "3": {
-            "name": "Calculator",
-            "tech_stack_used": "Flutter",
-            "description": "Calculator app based on Soft UI (neumorphism), having simple and advanced modes. Also has a history section to save previously performed operations (using FLUTTER SQLITE). Supports 3 theme modes - system default, light and dark. State management approach used - RIVERPOD. PUBLISHED ON F-DROID.",
-            "general_or_github_link": "https://github.com/belelaritra/Neumorphic_Calculator"
-        },
-        "4": {
-            "name": "flutter_dev_folio",
-            "tech_stack_used": "Flutter",
-            "description": "Minimal, Beautiful and responsive portfolio site template.",
-            "general_or_github_link": "https://github.com/danger-ahead/flutter_dev_folio"
-        },
-        "5": {
-            "name": "roBOT - Discord bot",
-            "tech_stack_used": "Python, MongoDB, REST APIs",
-            "description": "Bot with administrative commands (for kick, ban, mute, etc) and other fun commands (for memes, movies, jokes, etc).",
-            "general_or_github_link": "https://github.com/danger-ahead/roBOT"
-        },
-        "6": {
-            "name": "cinephilic",
-            "tech_stack_used": "HTML, CS, JS",
-            "description": "A chrome extension for showing the current trending movies in new tab.",
-            "general_or_github_link": "https://github.com/quasar-rcciit/cinephilic"
-        },
-        "7": {
-            "name": "Dictionary",
-            "tech_stack_used": "Flutter, SQLite, REST APIs",
-            "description": "Multi-language dictionary app with support for audio pronunciation (English only).",
-            "general_or_github_link": "https://github.com/danger-ahead/flutter_dictionary"
-        },
-        "8":{
-            "name": "Note",
-            "tech_stack_used": "JAVA, MySQL",
-            "description": "Simple terminal based Note Taking Application.",
-            "general_or_github_link": "https://github.com/danger-ahead/Note"
-        },
-        "9":{
-            "name": "Enigma-tic-cryption",
-            "tech_stack_used": "C++",
-            "description": "Follows the exact encryption method used by the enigma. Has multiple modes for setting different rotors.",
-            "general_or_github_link": "https://github.com/danger-ahead/enigma-tic-cryption"
-        }
-    },
-    "achievements": {
-        "1": {
-            "description": "Worked in a team (Quasar) at HackNPitch’21 (hackathon organised by JU E-Cell ) and ranked in the top 6 (earned the special mention tag) among 50+ other teams across India.",
-            "link": "https://www.linkedin.com/posts/juecell_hacknpitch-include-hackathon-activity-6849231722333249536-qqw2"
-        },
-        "2": {
-            "description": "Won Filecoin track prize from Filecoin for the best use of Filecoin and/or IPFS in a hackathon project (worth Rs. 20,000).",
-            "link": "https://www.linkedin.com/posts/shourya-shikhar_dapp-filecoin-decentralized-activity-6889903951555235840-FuLM"
-        },
-        "3": {
-            "description": "Have 600+ reputation points in Stack Overflow.",
-            "link": "https://stackoverflow.com/users/10951873/shourya-shikhar"
-        },
-        "4": {
-            "description": "Completed 30 Days of Google Cloud '21.\n- Completed Cloud Engineering Track\n- Completed Data Science & Machine Learning Track",
-            "link": "https://www.qwiklabs.com/public_profiles/d317f0a6-63b7-4c9f-be77-066e75ba3c6a"
-        },
-        "5": {
-            "description": "Completed Hacktoberfest '21 with 6 merged PRs.",
-            "link": "https://www.linkedin.com/posts/shourya-shikhar_hacktoberfest2021-hacktoberfest-opensource-activity-6857565719031361536-OpX8"
-        }
+    "2": {
+      "institute": "Bunts' Sangha RNS Vidyaniketan",
+      "location": "Bengaluru, India",
+      "years": "2013 - 2015",
+      "description": "Physics, Chemistry, Mathematics, Computer Science",
+      "grades": "84.4%",
+      "logo": "rns.jpeg"
     }
+  },
+  "experience": {
+    "1": {
+      "name": "Digital Green",
+      "role": "Software Engineer I",
+      "period": "Jul. 2021 – Nov. 2022",
+      "description": "Worked on ReactJs web app and Flutter Android apps",
+      "image_name": "digital-green.jpeg"
+    },
+    "2": {
+      "name": "Vrook ",
+      "role": "Software Engineer Intern",
+      "period": "Oct. 2019 – Apr. 2021",
+      "description": "Designed and developed custom mobile-responsive themes for OpenEdX LMS.",
+      "image_name": "vrook.png"
+    }
+  },
+  "projects": {
+    "1": {
+      "name": "Regalia '22 Backend",
+      "tech_stack_used": "FastAPI and MongoDB (using Python)",
+      "description": "Backend of Regalia '22, RCCIIT's cultural fest. Handled total entries for 1.2K+ attendees on both the event days each. Also handled on-spot registrations (including sending passes through email using MAILGUN API) and free entries, without encountering a single production bug.",
+      "general_or_github_link": "https://github.com/danger-ahead/regalia-2022-backend"
+    },
+    "2": {
+      "name": "TechTrix '22 Backend",
+      "tech_stack_used": "FastAPI and MongoDB (using Python)",
+      "description": "Made the backend of TechTrix '22, RCCIIT's tech fest. Handled 435+ participants, 60+ coordinators, and 560+ event registrations, without encountering a single production bug.",
+      "general_or_github_link": "https://github.com/danger-ahead/techtrix22-backend"
+    },
+    "3": {
+      "name": "Calculator",
+      "tech_stack_used": "Flutter",
+      "description": "Calculator app based on Soft UI (neumorphism), having simple and advanced modes. Also has a history section to save previously performed operations (using FLUTTER SQLITE). Supports 3 theme modes - system default, light and dark. State management approach used - RIVERPOD. PUBLISHED ON F-DROID.",
+      "general_or_github_link": "https://github.com/belelaritra/Neumorphic_Calculator"
+    },
+    "4": {
+      "name": "flutter_dev_folio",
+      "tech_stack_used": "Flutter",
+      "description": "Minimal, Beautiful and responsive portfolio site template.",
+      "general_or_github_link": "https://github.com/danger-ahead/flutter_dev_folio"
+    },
+    "5": {
+      "name": "roBOT - Discord bot",
+      "tech_stack_used": "Python, MongoDB, REST APIs",
+      "description": "Bot with administrative commands (for kick, ban, mute, etc) and other fun commands (for memes, movies, jokes, etc).",
+      "general_or_github_link": "https://github.com/danger-ahead/roBOT"
+    },
+    "6": {
+      "name": "cinephilic",
+      "tech_stack_used": "HTML, CS, JS",
+      "description": "A chrome extension for showing the current trending movies in new tab.",
+      "general_or_github_link": "https://github.com/quasar-rcciit/cinephilic"
+    },
+    "7": {
+      "name": "Dictionary",
+      "tech_stack_used": "Flutter, SQLite, REST APIs",
+      "description": "Multi-language dictionary app with support for audio pronunciation (English only).",
+      "general_or_github_link": "https://github.com/danger-ahead/flutter_dictionary"
+    },
+    "8": {
+      "name": "Note",
+      "tech_stack_used": "JAVA, MySQL",
+      "description": "Simple terminal based Note Taking Application.",
+      "general_or_github_link": "https://github.com/danger-ahead/Note"
+    },
+    "9": {
+      "name": "Enigma-tic-cryption",
+      "tech_stack_used": "C++",
+      "description": "Follows the exact encryption method used by the enigma. Has multiple modes for setting different rotors.",
+      "general_or_github_link": "https://github.com/danger-ahead/enigma-tic-cryption"
+    }
+  },
+  "achievements": {
+    "1": {
+      "description": "Worked in a team (Quasar) at HackNPitch’21 (hackathon organised by JU E-Cell ) and ranked in the top 6 (earned the special mention tag) among 50+ other teams across India.",
+      "link": "https://www.linkedin.com/posts/juecell_hacknpitch-include-hackathon-activity-6849231722333249536-qqw2"
+    },
+    "2": {
+      "description": "Won Filecoin track prize from Filecoin for the best use of Filecoin and/or IPFS in a hackathon project (worth Rs. 20,000).",
+      "link": "https://www.linkedin.com/posts/shourya-shikhar_dapp-filecoin-decentralized-activity-6889903951555235840-FuLM"
+    },
+    "3": {
+      "description": "Have 600+ reputation points in Stack Overflow.",
+      "link": "https://stackoverflow.com/users/10951873/shourya-shikhar"
+    },
+    "4": {
+      "description": "Completed 30 Days of Google Cloud '21.\n- Completed Cloud Engineering Track\n- Completed Data Science & Machine Learning Track",
+      "link": "https://www.qwiklabs.com/public_profiles/d317f0a6-63b7-4c9f-be77-066e75ba3c6a"
+    },
+    "5": {
+      "description": "Completed Hacktoberfest '21 with 6 merged PRs.",
+      "link": "https://www.linkedin.com/posts/shourya-shikhar_hacktoberfest2021-hacktoberfest-opensource-activity-6857565719031361536-OpX8"
+    }
+  }
 }
