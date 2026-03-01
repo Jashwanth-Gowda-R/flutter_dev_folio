@@ -18,7 +18,7 @@ class SocialMediaBar extends StatelessWidget {
       'linkedin',
       'medium',
       'stackoverflow',
-      'twitter',
+      // 'twitter',
       'leetcode'
     ];
     return Padding(
@@ -28,7 +28,7 @@ class SocialMediaBar extends StatelessWidget {
           child: Row(
             children: List.generate(data.length, (int i) {
               return IconButton(
-                  iconSize: 50.0,
+                  iconSize: 20.0,
                   hoverColor: Colors.transparent,
                   icon: (data[i][1] != '' &&
                           currentSupportedSocialMedia.contains(data[i][1]))
@@ -86,6 +86,7 @@ class _SocialMediaButton extends State<SocialMediaButton> {
         },
         child: Image.asset(
           widget.image,
+          height: 60,
         ),
       ),
     );

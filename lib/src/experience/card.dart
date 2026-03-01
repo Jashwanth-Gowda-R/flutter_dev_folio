@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../custom/custom_text.dart';
+import '../html_open_link.dart';
 import '../theme/config.dart';
 
 class ExperienceCard extends StatefulWidget {
@@ -11,10 +12,11 @@ class ExperienceCard extends StatefulWidget {
       required this.desc,
       required this.period,
       required this.role,
-      required this.isMobile})
+      required this.isMobile,
+      required this.link})
       : super(key: key);
 
-  final String image, title, desc, period, role;
+  final String image, title, desc, period, role, link;
   final bool isMobile;
 
   @override
@@ -48,7 +50,7 @@ class _ExperienceCardState extends State<ExperienceCard> {
             isHover = value;
           });
         },
-        onTap: () {},
+        onTap: () => htmlOpenLink(widget.link),
         child: Container(
           alignment: Alignment.topCenter,
           padding: const EdgeInsets.only(

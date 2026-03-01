@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta name="google-site-verification" content="google-site-verification=ziLZPKtFRbAsaFJOqLPFViIsQ77aPqTuF_wpfibot9Y" />
+  <meta name="google-site-verification" content="ziLZPKtFRbAsaFJOqLPFViIsQ77aPqTuF_wpfibot9Y" />
   <base href="/">
 
   <meta charset="UTF-8">
@@ -16,7 +16,7 @@
   <meta name="apple-mobile-web-app-title" content="Meet Developer">
   <link rel="apple-touch-icon" href="icons/Icon-192.png">
 
-  <title>Meet Developer</title> <!-- Put site title here -->
+  <title>Meet Developer</title>
   <link rel="manifest" href="manifest.json">
 </head>
 <body>
@@ -24,6 +24,7 @@
   <!-- Loading animation from CodePen -->
   <!-- https://codepen.io/jkantner/pen/ExVWpmx -->
   <div class="preloader">
+    <!-- Your preloader divs remain exactly the same -->
     <div class="box">
       <div class="box__inner">
         <div class="box__back-flap"></div>
@@ -66,7 +67,7 @@
   </div>
 
   <script>
-    var serviceWorkerVersion = "3190284172";
+  
     var scriptLoaded = false;
     function loadMainDartJs() {
       if (scriptLoaded) {
@@ -80,12 +81,10 @@
     }
 
     if ('serviceWorker' in navigator) {
-      // Service workers are supported. Use them.
       window.addEventListener('load', function () {
-        // Wait for registration to finish before dropping the <script> tag.
-        // Otherwise, the browser will load the script multiple times,
-        // potentially different versions.
-        var serviceWorkerUrl = 'flutter_service_worker.js?v=' + serviceWorkerVersion;
+        // Use the template token instead of the variable
+        var serviceWorkerUrl = 'flutter_service_worker.js?v="3882847287"';
+        
         navigator.serviceWorker.register(serviceWorkerUrl)
           .then((reg) => {
             function waitForActivation(serviceWorker) {
@@ -97,24 +96,17 @@
               });
             }
             if (!reg.active && (reg.installing || reg.waiting)) {
-              // No active web worker and we have installed or are installing
-              // one for the first time. Simply wait for it to activate.
               waitForActivation(reg.installing ?? reg.waiting);
-            } else if (!reg.active.scriptURL.endsWith(serviceWorkerVersion)) {
-              // When the app updates the serviceWorkerVersion changes, so we
-              // need to ask the service worker to update.
+            } else if (!reg.active.scriptURL.endsWith('v="3882847287"')) {
               console.log('New service worker available.');
               reg.update();
               waitForActivation(reg.installing);
             } else {
-              // Existing service worker is still good.
               console.log('Loading app from service worker.');
               loadMainDartJs();
             }
           });
 
-        // If service worker doesn't succeed in a reasonable amount of time,
-        // fallback to plaint <script> tag.
         setTimeout(() => {
           if (!scriptLoaded) {
             console.warn(
@@ -125,7 +117,6 @@
         }, 4000);
       });
     } else {
-      // Service workers not supported. Just drop the <script> tag.
       loadMainDartJs();
     }
   </script>

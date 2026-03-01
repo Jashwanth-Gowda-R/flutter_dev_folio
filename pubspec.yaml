@@ -50,4 +50,5 @@ flutter:
     - assets/projects/constant/
     - assets/achievements/
     - assets/portfolio.json
-    - dotenv
+    - assets/dotenv
+    - assets/experience/prowork.png

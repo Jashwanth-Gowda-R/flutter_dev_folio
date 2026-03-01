@@ -199,7 +199,7 @@ class _ContactMeState extends State<ContactMe> {
                                   width: 7,
                                   color: CustomTheme.darkTheme.cardColor,
                                 )),
-                            child: imageWidget(2.5)),
+                            child: imageWidget(2)),
                         SocialMediaBar(
                           height: height,
                         ),

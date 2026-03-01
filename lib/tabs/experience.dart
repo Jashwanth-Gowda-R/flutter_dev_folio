@@ -32,6 +32,7 @@ class Experience extends StatelessWidget {
                     period: data[i][2],
                     desc: data[i][3],
                     isMobile: true,
+                    link: data[i][5],
                   ),
                 );
               }),
@@ -57,6 +58,7 @@ class Experience extends StatelessWidget {
                         period: data[index + i * 3][2],
                         desc: data[index + i * 3][3],
                         isMobile: false,
+                        link: data[index + i * 3][5],
                       );
                     }),
                   ),

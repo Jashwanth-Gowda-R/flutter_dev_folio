@@ -22,7 +22,7 @@ List<Widget> widgetList = [
   WhatIdo(),
   Education(),
   Experience(),
-  // Projects(),
-  // Achievements(),
+  Projects(),
+  Achievements(),
   const ContactMe(),
 ];

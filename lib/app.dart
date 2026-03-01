@@ -24,7 +24,7 @@ class App extends StatelessWidget {
               physics: const BouncingScrollPhysics(),
               minCacheExtent: double.infinity,
               shrinkWrap: true,
-              itemCount: 5,
+              itemCount: 7,
               itemScrollController: scroll,
               itemBuilder: (context, index) {
                 return widgetList[index];
@@ -39,7 +39,7 @@ class App extends StatelessWidget {
               physics: const BouncingScrollPhysics(),
               minCacheExtent: double.infinity,
               shrinkWrap: true,
-              itemCount: 5,
+              itemCount: 7,
               itemScrollController: scroll,
               itemBuilder: (context, index) {
                 return widgetList[index];

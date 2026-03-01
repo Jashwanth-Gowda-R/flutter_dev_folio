@@ -56,7 +56,7 @@ class _HomePageState extends State<HomePage> {
                   ),
                   Designation(isMobile: true, context: context),
                   SocialMediaBar(
-                    height: height,
+                    height: 100,
                   ),
                   About(fontSize: 24),
                   Padding(

@@ -71,7 +71,7 @@ class WhatIdo extends StatelessWidget {
                     padding: const EdgeInsets.fromLTRB(15, 30, 15, 20),
                     child: CustomText(
                         text: data[1].isNotEmpty
-                            ? '⚡ Some languages & tools I use:'
+                            ? '⚡ Languages & tools I use:'
                             : '',
                         fontSize: 15,
                         color: Theme.of(context).primaryColorLight),
@@ -146,7 +146,7 @@ class WhatIdo extends StatelessWidget {
                     padding: const EdgeInsets.fromLTRB(70, 30, 70, 20),
                     child: CustomText(
                         text: data[1].isNotEmpty
-                            ? '⚡ Some languages & tools I use:'
+                            ? '⚡ Languages & tools I use:'
                             : '',
                         fontSize: 35,
                         color: Theme.of(context).primaryColorLight),
