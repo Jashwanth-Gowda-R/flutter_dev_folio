@@ -25,7 +25,8 @@ class MyName extends StatelessWidget {
                   width: width - width * 0.3,
                   child: Text(
                     data.split(' ')[i],
-                    textScaleFactor: 4.5,
+                    // textScaleFactor: 4.5,
+                    textScaler: const TextScaler.linear(4.5),
                     style: TextStyle(
                       fontFamily: 'FjallaOne',
                       // letterSpacing: 10.5,
@@ -37,7 +38,8 @@ class MyName extends StatelessWidget {
               }))
           : Text(
               data,
-              textScaleFactor: 7,
+              // textScaleFactor: 7,
+              textScaler: const TextScaler.linear(7),
               style: TextStyle(
                 fontFamily: 'FjallaOne',
                 letterSpacing: 20.5,
